@@ -10,7 +10,7 @@ public class MultiplicationTable {
         printTable(num);
     }
     public static void printTable(int numberTableToPrint) {
-            for (int j = 0; j <= 10; j++) {
+            for (int j = 1; j <= 10; j++) {
                 System.out.println(j + " x " + numberTableToPrint + " = " + numberTableToPrint * j);
             }
 
